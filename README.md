@@ -1,38 +1,26 @@
-# Загрузчик страниц (JS)
-
-[![hexlet-check](https://github.com/userdie-dev/backend-project-4/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/userdie-dev/backend-project-4/actions)
-
-На базовом уровне научитесь работать с асинхронным кодом в JavaScript, писать тесты на Mock / Stub, работать с ошибками и исключениями, DOM, promises, async / await, работать с HTTP.
-
-Учебный проект Хекслета: https://ru.hexlet.io/programs/backend
-Как это должно работать: https://asciinema.org/a/dVKok25V5xW2SkjMF4LE8fZOw
-
-## Стек
-
-- JavaScript
-
-## Установка
-
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
-
-```bash
-git clone https://github.com/userdie-dev/backend-project-4.git
-cd backend-project-4
+[![Code
+Climate](https://lima.codeclimate.com/github/dzencot/project-lvl3-s71/badges/gpa.svg)](https://lima.codeclimate.com/github/dzencot/project-lvl3-s71)
+[![Test
+Coverage](https://lima.codeclimate.com/github/dzencot/project-lvl3-s71/badges/coverage.svg)](https://lima.codeclimate.com/github/dzencot/project-lvl3-s71/coverage)
+[![Issue
+Count](https://lima.codeclimate.com/github/dzencot/project-lvl3-s71/badges/issue_count.svg)](https://lima.codeclimate.com/github/dzencot/project-lvl3-s71)
+[![Build
+Status](https://travis-ci.org/dzencot/project-lvl3-s71.svg?branch=master)](https://travis-ci.org/dzencot/project-lvl3-s71)
+[![asciicast](https://asciinema.org/a/4blo81bj4ogtxzisb88wb4w6e.png)](https://asciinema.org/a/4blo81bj4ogtxzisb88wb4w6e)
+# Загрузщик страниц #
+## Установка: ##
+```
+  git clone https://github.com/dzencot/project-lvl3-s71 page_loader
+  cd page_loader
+  make install
+```
+## Использование: ##
+```
+  make run 1=http://your_page
+```
+Другой способ:
+```
+  make build
+  node dist/bin/page_loader.js --help
 ```
 
-## Использование
-
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-
----
-
-<details>
-<summary>Автоматические тесты Хекслета</summary>
-
-Тесты запускаются на каждый коммит. За запуск отвечает файл `.github/workflows/hexlet-check.yml` — не удаляйте и не переименовывайте ни его, ни репозиторий.
-
-</details>
-
-## О Хекслете
-
-[Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
